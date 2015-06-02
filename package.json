@@ -1,0 +1,23 @@
+{
+    "name": "mock-plus",
+    "version": "0.0.3",
+    "description": "more convenient to generate data for front-end testing",
+    "main": "export.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "ruby",
+        "email": "skysunshine99@126.com"
+    },
+    "dependencies": {
+        "json-parser": "^0.2.4",
+        "mace": "^2.0.0",
+        "mockjs": "^0.1.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/rubyisapm/mock-plus"
+    },
+    "readme":"mock-plus is a encapsulation of mockjs, it will be more convenient to use mockjs with it."
+}
