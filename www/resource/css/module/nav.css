@@ -1,0 +1,50 @@
+@keyframes rotate
+{
+    0% {transform: rotate(30deg);}
+    100% {transform: rotate(390deg);}
+}
+@-o-keyframes rotate
+{
+    0% {transform: rotate(30deg);}
+    100% {transform: rotate(390deg);}
+}
+@-webkit-keyframes rotate
+{
+    0% {transform: rotate(30deg);}
+    100% {transform: rotate(390deg);}
+}
+@-moz-keyframes rotate
+{
+    0% {transform: rotate(30deg);}
+    100% {transform: rotate(390deg);}
+}
+#nav{
+    height:80px;
+    width:1200px;
+    margin:50px auto;
+}
+#nav a{
+    display:inline-block;
+    margin-right:60px;
+    width:80px;
+    height:80px;
+    border-radius:50px;
+    transform: rotate(30deg);
+    background:url(/resource/img/nav_bg.png) 0 0 repeat;
+    border:3px solid #588a91;
+    font:14px/80px "Bauhaus 93";
+    color:#588a91;
+    text-align:center
+}
+#nav a:hover{
+    background:#C4DB47;
+    color:#696969;
+    -moz-animation: rotate 1s;
+    -webkit-animation: rotate 1s;
+    -o-animation: rotate 1s;
+    animation: rotate 1s;
+}
+#nav .current{
+    background:#C4DB47;
+    color:#696969
+}

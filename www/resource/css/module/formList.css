@@ -1,0 +1,46 @@
+.formList li{
+    padding-left:105px;
+    margin-bottom:30px;
+}
+.formList li label{
+    display:block;
+    float:left;
+    width:100px;
+    text-align:right;
+    margin-left:-105px;
+    line-height:32px
+}
+.formList .note{
+    font-size:14px
+}
+#note{
+    color:#3d3d3d;
+    width: 500px;
+    height: 30px;
+    line-height:30px;
+    margin-left: 105px;
+    text-indent:36px;
+    position:relative;
+    border:1px solid #aadcde;
+    border-radius:2px;
+    background-color:#E4E4E4;
+    display:none
+}
+#note b{
+    width:22px;
+    height:22px;
+    background-image:url(/resource/img/icons.png);
+    background-repeat:no-repeat;
+    position:absolute;
+    top:4px;
+    left:8px
+}
+.message_success{
+    background-position:0 -24px
+}
+.message_warn{
+    background-position:0 -1px
+}
+.message_error{
+    background-position:0 -47px
+}

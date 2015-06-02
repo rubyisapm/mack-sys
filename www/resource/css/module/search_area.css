@@ -1,0 +1,15 @@
+.search_area input,.search_area select{
+    height:30px;
+    border:1px solid #ccc;
+    margin-right: 20px;
+    text-indent:5px;
+}
+.search_area label{
+    margin-right: 5px;
+}
+.search_area .button_green{
+    width:80px;
+    height:32px;
+    line-height: 32px;
+    border-radius:4px;
+}

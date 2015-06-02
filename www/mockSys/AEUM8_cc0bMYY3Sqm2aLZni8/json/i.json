@@ -1,0 +1,28 @@
+/* /data/promoteDetail */
+/*获取推广详情*/
+[
+  {
+    //日期
+    "DateNum": 20150503,
+    //渠道ID
+    "ChannelId": 68784,
+    //注册玩家
+    "RegUserNum": 0,
+    //有效玩家
+    "ValidUserNum": 0,
+    "ProjectId": 25,
+    "PromoterId": 69352
+  },
+  {
+    //日期
+    "DateNum": 20150503,
+    //渠道ID
+    "ChannelId": 68784,
+    //注册玩家
+    "RegUserNum": 0,
+    //有效玩家
+    "ValidUserNum": 0,
+    "ProjectId": 25,
+    "PromoterId": 69352
+  }
+]

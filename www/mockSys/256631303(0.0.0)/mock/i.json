@@ -1,0 +1,102 @@
+[
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@STRING",
+    "GameTime": "@INTEGER",
+    "ValidStatus": "@INTEGER",
+    "IsRepaeat": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "LastUploadDate": "@INTEGER"
+  }
+]

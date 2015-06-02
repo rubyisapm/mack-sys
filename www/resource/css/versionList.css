@@ -1,0 +1,17 @@
+@import './module/base.css';
+@import './module/search_area.css';
+@import './module/table.css';
+@import "./module/button.css";
+@import "./module/page.css";
+#wrap{
+    width:1200px;
+    margin:50px auto;
+}
+table{
+    width:100%;
+}
+.btn_check{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}

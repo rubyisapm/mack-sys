@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>路径列表</title>
+    <link rel="stylesheet" type="text/css" href="/resource/css/pathList.css">
+    <script src="/resource/module/jquery-2.1.1.min.js"></script>
+    <script src="/resource/js/sea.js"></script>
+    <script src="/resource/js/seaConfig.js"></script>
+    <script src="/resource/js/home/pathList.js"></script>
+</head>
+<body>
+<div id="wrap">
+    {% if errmsg %}
+        <span>{{errmsg}}</span>
+    {% else %}
+        <div class="search_area mb20">
+            <label for="domain">网站地址:</label><input type="text" name="domain" id="domain" class="w200"/>
+            <label for="port">端口:</label><input type="text" name="port" id="port" class="w200"/>
+            <label for="path">接口路径:</label><input id="path" name="path" type="text" class="w200"/>
+            <span class="button_green" id="btn_search">搜 索</span>
+        </div>
+        <div id="result">
+            {% include '../swig-module/table_path.html' with data.tableData %}
+        </div>
+
+        <div id="page">
+            {% include '../swig-module/page.html' with data.pageData %}
+        </div>
+
+    {% endif %}
+</div>
+</body>
+</html>

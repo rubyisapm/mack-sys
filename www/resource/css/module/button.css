@@ -1,0 +1,23 @@
+.button_blue{
+    display:inline-block;
+    text-align:center;
+    background-color:#51b7bb;
+    cursor:pointer;
+    border-radius:5px;
+    color:#fff;
+    border:none;
+}
+.button_blue:hover{
+    background-color:#3f9295
+}
+
+.button_green{
+    display:inline-block;
+    text-align:center;
+    background-color:#C4DB47;
+    cursor:pointer;
+    color:#fff;
+}
+.button_green:hover{
+    background-color:#A9C02C
+}

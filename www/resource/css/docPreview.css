@@ -1,0 +1,45 @@
+@import './module/base.css';
+body{
+    background-color:#fff;
+}
+table{
+    width:80%;
+    table-layout:fixed
+}
+table th,table td{
+    border:1px solid #999;
+    padding:6px 10px;
+    background-color:#fff;
+    text-align:center
+}
+table th{
+    background-color:#D2D2D2;
+}
+#menu{
+    position:fixed;
+    right:2%;
+    top:10px;
+    width:15%;
+    background-color:#F2F2F2;
+}
+#menu li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom:1px solid #fff
+}
+#menu li a{
+    display:block;
+    cursor:pointer;
+}
+#menu li a:hover{
+    background: #d7d7d7;
+}
+#menu ul li{
+    text-indent:5px;
+}
+#menu ul ul li{
+    text-indent:15px;
+}
+#menu ul ul ul li{
+    text-indent:25px;
+}

@@ -1,0 +1,18 @@
+<div class="search_area mb20">
+{% if id!='undefined' %}
+<label for="domain">网站地址:</label>
+<input type="text" name="domain" id="domain" class="w200" value="{{domain}}" readonly="readonly"/>
+<label for="port">端口:</label>
+<input type="text" name="port" id="port" class="w200" value="{{port}}" readonly="readonly"/>
+<label for="path">路径:</label>
+<input id="path" class="w200" name="path" type="text" value="{{path}}" readonly="readonly"/>
+{#{% else %}
+<label for="domain">网站地址:</label>
+<input type="text" name="domain" id="domain" class="w200"/>
+<label for="port">端口:</label>
+<input type="text" name="port" id="port" class="w200"/>
+<label for="path">路径:</label>
+<input name="path" type="text" id="path" class="w200"/>#}
+{% endif %}
+    {#<span class="button_green">搜 索</span>#}
+</div>

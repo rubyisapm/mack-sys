@@ -1,0 +1,107 @@
+@import './module/base.css';
+@import "./module/nav.css";
+@import './module/search_area.css';
+@import './module/formList.css';
+@import './module/button.css';
+#container{
+    width:798px;
+    height:410px;
+    margin:50px auto;
+    background:url(/resource/img/balloon.png) 0 0 no-repeat;
+    padding:0 0 0 400px;
+    border:1px solid #51b7bb
+}
+#wrap{
+    width:700px;
+    background-color:#fff;
+    opacity:0.6;
+    padding:50px;
+    border-radius:30px;
+}
+
+#submit {
+    width: 120px;
+    height: 40px;
+    line-height:40px;
+    font-size:18px;
+}
+img{
+    margin:200px 0 0 20px;
+    float:left
+}
+#pickFiles,#uploadFiles{
+    width:100px;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+}
+#fileList{
+    font-size:12px;
+    display:none;
+    position:relative;
+}
+#fileList table td,#fileList table th,#fileList table tr{
+    border:none;
+}
+#fileList table td,#fileList table th{
+    padding:10px 5px;
+    text-align: center;
+}
+#fileList .note{
+    display:none;
+}
+#fileList .loading{
+    position:absolute;
+    background-color: #fff;
+    opacity:0.6;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    vertical-align: middle;
+    text-align:center;
+    display:none;
+}
+#fileList .loading div{
+    position:absolute;
+    display:inline-block;
+    top:50%;
+}
+#fileList .loading div span{
+    display:inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    -webkit-animation: loading 1s infinite;
+    margin: -2px;
+}
+#fileList .loading div span:nth-child(1){
+    -webkit-animation-delay: 0s;
+    background-color: #004444;
+}
+#fileList .loading div span:nth-child(2){
+    -webkit-animation-delay: 0.5s;
+    background-color: #C4DB47;
+}
+
+@-webkit-keyframes loading{
+    0%{
+        width: 14px;
+        height: 14px;
+        border-radius: 14px;
+    }
+    50%{
+        width: 18px;
+        height: 18px;
+        border-radius: 18px;
+    }
+    100%{
+        width: 14px;
+        height: 14px;
+        border-radius: 14px;
+    }
+
+}
+.buttonWrap{
+    padding-left:105px;
+}

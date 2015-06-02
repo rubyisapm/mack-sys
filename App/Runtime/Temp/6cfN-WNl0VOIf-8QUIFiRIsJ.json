@@ -1,0 +1,33 @@
+/*/detail?user=ruby&vip=false*/
+/**
+ * 关于该接口的描述...
+ * */
+{
+    //名字
+    "name":{
+        "first|@FIRST":"ruby",
+        "last|@LAST":"huang"
+    },
+    //网站权限
+    /*在该网站的权限*/
+    "powers":{
+        //社区权限
+        "community":{
+            //浏览权限
+            //是否可浏览社区文章
+            "read|@BOOLEAN(1,6,false)":true,
+            //发布权限
+            /*是否可以发布文章*/
+            "write":true
+        },
+        //管理权限
+        "manage":{
+            //查看用户权限
+            /*是否可查看用户信息*/
+            "read|10-1":true,
+            //操作用户权限
+            /*是否可以对用户进行增删改操作*/
+            "write|1":false
+        }
+    }
+}

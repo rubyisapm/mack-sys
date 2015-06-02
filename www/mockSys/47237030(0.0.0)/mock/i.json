@@ -1,0 +1,82 @@
+[
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  },
+  {
+    "UserId": "@INTEGER",
+    "UserName": "@INTEGER",
+    "GameTime": "@INTEGER",
+    "PayoffStatus": "@INTEGER",
+    "RegisterDate": "@INTEGER",
+    "PayoffDate": "@INTEGER"
+  }
+]

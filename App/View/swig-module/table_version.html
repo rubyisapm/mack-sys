@@ -1,0 +1,30 @@
+<table class="table_list pathList">
+    <colgroup>
+        {% for x in cols %}
+            <col width="{{x}}"/>
+        {% endfor %}
+        <col/>
+    </colgroup>
+    <thead>
+        <tr>
+            {% for x in thead %}
+                <th>{{x}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    {% if data.length<1 %}
+        <tr>
+            <td colspan="5">没有相关信息！</td>
+        </tr>
+    {% else %}
+        {% for item in data %}
+            <tr data-domId="{{item.domId}}">
+                <td>{{item.id}}</td>
+                <td>{{item.version}}</td>
+                <td><a href="/mockSys/{{item.id}}({{item.version}})/json/i.json" target="_blank" class="button_blue btn_check">查看</a></td>
+                <td><a href="/Home/h/docPreview?id={{item.id}}&version={{item.version}}" target="_blank" class="button_blue btn_check" id="docBtn">查看</a></td>
+                <td><a href="/mockSys/{{item.id}}({{item.version}})/mock/i.json" target="_blank" class="button_blue btn_check">查看</a></td>
+            </tr>
+        {% endfor %}
+    {% endif %}
+</table>

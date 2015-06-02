@@ -1,0 +1,31 @@
+<table class="table_list paramList">
+    <colgroup>
+        {% for x in cols %}
+            <col width="{{x}}"/>
+        {% endfor %}
+        <col/>
+    </colgroup>
+    <thead>
+        <tr>
+            {% for x in thead %}
+                <th>{{x}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    {% if data.length<1 %}
+        <tr>
+            <td colspan="4">没有相关数据!</td>
+        </tr>
+    {% else %}
+        {% for item in data %}
+        <tr data-domId="{{item.id}}">
+            <td>{{item.id}}</td>
+            <td>{{item.keys}}</td>
+            <td>{{item.param}}</td>
+            <td>
+                <a href="/home/h/versionList?result_id={{ item.result_id }}" target="_blank" class="button_blue btn_versionList">查看版本</a>
+            </td>
+        </tr>
+        {% endfor %}
+    {% endif %}
+</table>

@@ -1,0 +1,14 @@
+/*/game/gettdkinfo*/
+/*
+  根据游戏缩写获取tdk信息接口
+*/
+{
+  "GameCode|5-10": "xchx",
+  "Content|500-1000": "hahfeio",
+  "Desc|50-200": "xxxxxxxxx",
+  "Download": "http://download2.uc8848.com/download/uc108.com_130351137/gamehallsetup.exe",
+  "GameName|5-20": "全国长红心(四副)",
+  "KeyWords|30-50": "fdfdfdfdfdfdfd",
+  "Title|20-50": "全sdfdsfsdfdsfdsf",
+  "StatsCode|30-50": "aaaaaaaaaaaaaaaaaaaaaaaa"
+}

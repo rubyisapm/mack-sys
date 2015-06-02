@@ -1,0 +1,18 @@
+[
+  {
+    "DateNum": "@INTEGER",
+    "ChannelId": "@INTEGER",
+    "RegUserNum": "@INTEGER",
+    "ValidUserNum": "@INTEGER",
+    "ProjectId": "@INTEGER",
+    "PromoterId": "@INTEGER"
+  },
+  {
+    "DateNum": "@INTEGER",
+    "ChannelId": "@INTEGER",
+    "RegUserNum": "@INTEGER",
+    "ValidUserNum": "@INTEGER",
+    "ProjectId": "@INTEGER",
+    "PromoterId": "@INTEGER"
+  }
+]

@@ -1,0 +1,29 @@
+{% if total>1 %}
+    <div class="page mt50">
+    {% if page>1 %}
+        <span class="prev disabled">上一页</span>
+    {% else %}
+        <span class="prev">上一页</span>
+    {% endif %}
+
+    {% for x in pages %}
+        {% if x==page %}
+            <span class="current">{{x}}</span>
+        {% else %}
+            <span class="every">{{x}}</span>
+        {% endif %}
+    {% endfor %}
+
+    {% if more %}
+        <span class="every">...</span>
+    {% endif %}
+
+    {% if page==total %}
+        <span class="next disabled">下一页</span>
+    {% else %}
+        <span class="next">下一页</span>
+    {% endif %}
+
+    <span class="total">{{count}} 条</span>
+</div>
+{% endif %}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>接口上传</title>
+    <link type="text/css" rel="stylesheet" href="/resource/css/infUpload.css"/>
+    <script src="/resource/module/jquery-2.1.1.min.js"></script>
+    <script src="/resource/module/plupload.full.min.js"></script>
+    <script src="/resource/js/sea.js"></script>
+    <script src="/resource/js/seaConfig.js"></script>
+    <script src="/resource/js/home/infUpLoad.js"></script>
+</head>
+<body>
+<div id="nav">
+    <a href="/home/h/infUpLoad" target="_blank" class="current">提交接口</a>
+    <a href="/home/h/pathList" target="_blank">路径列表</a>
+    <a href="/home/h/paramList" target="_blank">参数列表</a>
+    <a href="/home/h/versionList" target="_blank">版本列表</a>
+</div>
+<div id="container">
+    <div id="wrap">
+        <ul class="formList">
+            <li>
+                <label for="domainAdd">网站名称: </label>
+                <input type="text" name="domainAdd" class="w200 text" id="domainAdd" data-note="note_domainAdd"/><b class="ml5 mr5">*</b>
+                <span class="note" id="note_domainAdd">5-10个英文字母</span>
+            </li>
+            <li>
+                <label for="port">网站端口: </label>
+                <input type="text" name="port" class="w100 text" id="port" data-note="domDesc_note"/><b class="ml5 mr5">*</b>
+                <span class="note" id="note_port"></span>
+            </li>
+            <li>
+                <label>接口上传: </label>
+                <a id="pickFiles" class="button_blue" href="javascript:;">选择文件</a>
+                <a id="uploadFiles" class="button_blue" href="javascript:;">上传文件</a><b class="ml5 mr5">*</b>
+                <span class="note" id="note_files"></span>
+            </li>
+        </ul>
+        <div id="fileList">
+            <table>
+                <thead>
+                    <tr>
+                        <th>上传文件</th>
+                        <th>上传进度</th>
+                        <th>重复检测</th>
+                        <th>路径检测</th>
+                        <th>读取暂存</th>
+                        <th>转存文件</th>
+                        <th>mock生成</th>
+                        <th>doc生成</th>
+                        <th>提交结果</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <p class="note mt10">文件上传失败，请检查上传失败的文件并重新上传!</p>
+            <div class="loading">
+                <div>
+                    <span></span>
+                    <span></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="buttonWrap mt50">
+            <input type="button" value="提 交" class="button_blue" id="submit"/>
+        </div>
+
+        <div id="note" class="mt50"></div>
+    </div>
+</div>
+</body>
+</html>

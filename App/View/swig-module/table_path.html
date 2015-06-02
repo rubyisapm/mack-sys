@@ -1,0 +1,32 @@
+<table class="table_list pathList">
+    <colgroup>
+        {% for x in cols %}
+            <col width="{{x}}"/>
+        {% endfor %}
+        <col/>
+    </colgroup>
+    <thead>
+        <tr>
+            {% for x in thead %}
+                <th>{{x}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    {% if data.length<1 %}
+        <tr>
+            <td colspan="5">没有相关信息！</td>
+        </tr>
+    {% else %}
+        {% for item in data %}
+        <tr data-domId="{{item.id}}">
+            <td>{{item.id}}</td>
+            <td>{{item.domain}}</td>
+            <td>{{item.port}}</td>
+            <td>{{item.path}}</td>
+            <td>
+                <a href="/home/h/paramList?url_id={{item.id}}" target="_blank" class="button_blue btn_paramList">参数列表</a>
+            </td>
+        </tr>
+        {% endfor %}
+    {% endif %}
+</table>

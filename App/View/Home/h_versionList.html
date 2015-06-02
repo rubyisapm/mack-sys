@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>版本信息</title>
+    <link rel="stylesheet" type="text/css" href="/resource/css/versionList.css">
+    <script src="/resource/module/jquery-2.1.1.min.js"></script>
+    <script src="/resource/js/sea.js"></script>
+    <script src="/resource/js/seaConfig.js"></script>
+    <script src="/resource/js/home/versionList.js"></script>
+</head>
+<body>
+<div id="wrap">
+    {% if errmsg %}
+        <span>{{errmsg}}</span>
+    {% else %}
+        <div id="result">
+            {% include '../swig-module/table_version.html' with data.tableData %}
+        </div>
+
+        <div id="page">
+            {% include '../swig-module/page.html' with data.pageData %}
+        </div>
+
+    {% endif %}
+</div>
+</body>
+</html>
